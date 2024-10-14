@@ -1,0 +1,16 @@
+package com.example.stopwatchapp.util
+
+object Constants {
+    const val ACTION_SERVICE_START = "ACTION_SERVICE_START"
+    const val ACTION_SERVICE_STOP = "ACTION_SERVICE_STOP"
+    const val ACTION_SERVICE_CANCEL = "ACTION_SERVICE_CANCEL"
+    const val ACTION_SERVICE_TIMESTAMP = "ACTION_SERVICE_TIMESTAMP"
+    const val STOPWATCH_STATE = "STOPWATCH_STATE"
+    const val NOTIFICATION_CHANNEL_ID = "STOPWATCH_NOTIFICATION_ID"
+    const val NOTIFICATION_CHANNEL_NAME = "STOPWATCH_NOTIFICATION"
+    const val NOTIFICATION_ID = 10
+    const val CLICK_REQ_CODE = 100
+    const val CANCEL_REQ_CODE = 101
+    const val STOP_REQ_CODE = 102
+    const val RESUME_REQ_CODE = 103
+}
